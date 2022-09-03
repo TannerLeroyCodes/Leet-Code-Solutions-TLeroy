@@ -20,7 +20,7 @@ var maxProfit = function(prices) {
             }
     }
     }
-    return profit 
+    return profit ;
 };
 
 //Time Complexity O(n)
