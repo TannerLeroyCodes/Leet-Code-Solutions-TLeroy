@@ -7,7 +7,6 @@ var maxProfit = function(prices) {
     let buyPrice = prices[0];
     let profit = 0;
     
-    // go through array to decide if there is profit 
     for(let i=0; i < prices.length-1; i++){
         let tempProfit = prices[i+1]-prices[i];
         
